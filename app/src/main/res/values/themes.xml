@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar" />
+
+    <style name="ButtonStyle" parent="Widget.AppCompat.Button">
+        <item name="android:background">@drawable/button_background</item> <!-- Set button background -->
+        <item name="android:textColor">@android:color/white</item> <!-- Set text color -->
+        <item name="android:textAllCaps">false</item> <!-- Disable all caps for text -->
+        <item name="android:layout_margin">50dp</item> <!-- Set margin -->
+        <item name="android:padding">12dp</item> <!-- Set padding -->
+        <item name="android:radius">20dp</item> <!-- Set corner radius -->
+    </style>
+</resources>

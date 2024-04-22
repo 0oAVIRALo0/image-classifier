@@ -1,0 +1,44 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_marginTop="100dp"
+        android:layout_centerHorizontal="true">
+
+        <ImageView
+            android:id="@+id/randomImageView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop" />
+
+    </androidx.cardview.widget.CardView>
+
+    <Button
+        android:id="@+id/selectImageButton"
+        style="@style/ButtonStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/cardView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:text="Select Image" />
+
+    <TextView
+        android:id="@+id/DataTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/selectImageButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:text="Classified as:" />
+
+</RelativeLayout>
